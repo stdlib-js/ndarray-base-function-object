@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-function-object",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "C APIs for creating and managing ndarray function objects.",
   "license": "Apache-2.0",
   "author": {
@@ -72,6 +72,7 @@
     "fcn",
     "c",
     "n-api",
+    "node-api",
     "napi"
   ],
   "__stdlib__": {},
