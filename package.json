@@ -1,0 +1,30 @@
+{
+  "name": "@stdlib/ndarray-base-function-object",
+  "version": "0.0.0",
+  "description": "C APIs for creating and managing ndarray function objects.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-function-object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "base",
+    "ndarray",
+    "function",
+    "fcn",
+    "c",
+    "n-api",
+    "node-api",
+    "napi"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
