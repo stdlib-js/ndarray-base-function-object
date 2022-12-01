@@ -3,32 +3,8 @@
   "version": "0.0.6",
   "description": "C APIs for creating and managing ndarray function objects.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "browser": "./lib/browser.js",
-  "directories": {
-    "doc": "./docs",
-    "example": "./examples",
-    "include": "./include",
-    "lib": "./lib",
-    "src": "./src",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples"
-  },
+  "type": "module",
+  "main": "./index.mjs",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -37,34 +13,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/ndarray-ctor": "^0.0.x",
-    "@stdlib/utils-library-manifest": "^0.0.x",
-    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
-  },
-  "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.0.x",
-    "@stdlib/ndarray-base-unary": "^0.0.x",
-    "@stdlib/ndarray-dtypes": "^0.0.x",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "base",
@@ -76,7 +24,6 @@
     "node-api",
     "napi"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/athan"
